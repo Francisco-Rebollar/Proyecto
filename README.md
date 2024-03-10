@@ -1,2 +1,7 @@
-# Proyecto
-# https://proyecto-wc2a.onrender.com/
+# Proyecto (Análsis grafico de la base "Vehicles_us.csv")
+
+# El propósito fundamental de la presente aplicación reside en llevar a cabo un análisis gráfico de la base de datos denominada "Vehicles_us.csv". Este análisis se realiza mediante la sinergia de conocimientos adquiridos a lo largo del Sprint 5, los cuales abarcan el manejo de comandos de interfaz de línea de comandos (CLI) en diversos sistemas operativos, programación en el lenguaje Python con la utilización de bibliotecas especializadas como pandas, plotly.express, y principalmente streamlit.
+
+# Este proceso también implica la integración del uso y la funcionalidad de Git y GitHub, herramientas esenciales para el control de versiones y la colaboración eficiente en el desarrollo de proyectos. Finalmente, se culmina con la creación de un dashboard interactivo gracias a la colaboración con Render, lo que proporciona una plataforma para la visualización y exploración dinámica de los resultados obtenidos durante el análisis de la base de datos mencionada. Este enfoque integral permite fusionar habilidades técnicas y herramientas avanzadas para ofrecer una solución analítica robusta y visualmente atractiva.
+
+# link Render = https://proyecto-wc2a.onrender.com/
