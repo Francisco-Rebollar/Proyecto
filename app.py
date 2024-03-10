@@ -1,7 +1,11 @@
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-        
+
+st.header('Analisis base "vehicles_us.csv"')
+
+st.write('Selecciona el grafica que deseas visualizar')    
+
 car_data = pd.read_csv('vehicles_us.csv')  # leer los datos
 hist_button = st.button('Construir histograma')  # crear un botón
 
@@ -29,8 +33,7 @@ if disp_button:  # al hacer clic en el botón
     st.write('Gráfico de dispersión entre el odómetro y el precio de los anuncios de venta de coches')
 
     # crear un gráfico de dispersión
-    fig = px.scatter(car_data, x="odometer", y="price", title='Gráfico de Dispersión',
-                      labels={'odometer': 'Odómetro', 'price': 'Precio'})
+    fig2 = px.scatter(car_data, x="odometer", y="price") # crear un gráfico de dispersión
 
 
     
