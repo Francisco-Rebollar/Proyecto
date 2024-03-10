@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.header('Analisis base "vehicles_us.csv"')
+st.header('Analisis grafica de la base "vehicles_us.csv"')
 
 st.write('Selecciona el grafica que deseas visualizar')    
 
@@ -34,6 +34,9 @@ if disp_button:  # al hacer clic en el botón
 
     # crear un gráfico de dispersión
     fig2 = px.scatter(car_data, x="odometer", y="price") # crear un gráfico de dispersión
+
+    # mostrar un gráfico Plotly interactivo
+    st.plotly_chart(fig2, use_container_width=True)
 
 
     
